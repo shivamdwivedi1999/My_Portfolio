@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+    <script src="https://kit.fontawesome.com/ffc3e4b54d.js" crossorigin="anonymous"></script>    
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="logos.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()" ></i>
+            </nav>
+            <div class="header-text">
+                 <h1>Hi, I'm <span>Shivam Dwivedi</span> <br>From India</h1>
+                 <p>Software_Engineer</p>
+            </div>
+        </div>
+    </div>
+
+
+
+
+  <!-------------- ABOUT SECTION ----------->
+
+
+
+    
+     <div id="about">   
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="DSC_4902.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hello! I'm Shivam Dwivedi, a dedicated software engineer with a passion for crafting efficient, scalable solutions to complex problems. With [2] years of experience in the industry, I've honed my skills in [Python , Javascript, HTML, CSS, React js, SQL etc.].</p>
+                <div class="tab-titels">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <!------ <li><span>UI?UX</span><br>Sesigning Web/App interfaces</li> -------->
+                        <li><span>Web Development</span><br>Web app Development</li>
+                        <li><span>App Development</span><br>Building Android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>06/2023 - Prasent</span><br>Freelancer</li>
+                        <li><span>01/2022 - 05/2023</span><br>Software Analyst at Capgemini</li>
+                        <li><span>07/2021 - 12/2021</span><br>Intenship at Advintek Pte Ltd.</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2017 - 2021</span><br>B.tech (CSE) from ABESIT</li>
+                        <li><span>2016</span><br>12th from RIC</li>
+                        <li><span>2014</span><br>10th from RIC</li>
+                    </ul>
+                </div>
+                </div>
+            </div>   
+        </div>   
+    </div>
+
+
+    <!------------------- Services ---------------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates inventore, expedita rem porro repudiandae eius consequuntur a odit ex beatae distinctio architecto! Illo, accusantium dicta numquam animi distinctio exercitationem ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-alt"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates inventore, expedita rem porro repudiandae eius consequuntur a odit ex beatae distinctio architecto! Illo, accusantium dicta numquam animi distinctio exercitationem ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>App Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates inventore, expedita rem porro repudiandae eius consequuntur a odit ex beatae distinctio architecto! Illo, accusantium dicta numquam animi distinctio exercitationem ipsa.</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!------------- portfolio---------------------------------- -->
+
+
+ <div id="portfolio">
+    <div class="container"> 
+    <h1 class="sub-title">My Work</h1>
+    <div class="work-list">
+        <div class="work">
+            <img src="Tic_tok_game.PNG" >
+            <div class="layer">
+                <h3>Tic_Tak_Game</h3>
+                <p> Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner. When all 9 squares are full, the game is over. If no player has 3 marks in a row, the game ends in a tie.</p>
+                <a href="https://shivamdwivedi1999.github.io/Tic_tak_game-using-HTML_CSS_JS/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="amazon_clone.PNG" >
+            <div class="layer">
+                <h3>Amazon_Clone_Ecommerce_Website</h3>
+                <p> Amazon is an online marketplace on which businesses may set up a store and offer products within strict rules. Amazon offers several monthly plans for merchant stores.</p>
+                <a href="https://shivamdwivedi1999.github.io/Amazon_cloneusing_HTML_CSS_JS/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Gym.PNG" >
+            <div class="layer">
+                <h3>Gym_website</h3>
+                <p>Your gym website is where members will view your fitness class schedule, make a booking, and find out what services you offer.</p>
+                <a href="https://shivamdwivedi1999.github.io/Project-HTML-CSS-JS/"><i class="fas fa-external-link-alt"></i></a>
+            </div>
+        </div>
+    </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+ </div>
+
+
+
+ <!-- --------Contect---------- -->
+
+
+
+
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title"> Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i>shivamd018@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i>8181030397</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/ShivamD90358930"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/shivam-dwivedi-839136176/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="my-cv.pdf" download  class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"> </span>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- ------------Copyright ---------------------->
+
+
+
+    <div class="copyright">
+        <p>Copyright @ Shiv.Dwiv Made with <i class="fas fa-heart"></i> by Easy Tutorials</p>
+    </div>
+ </div>
+
+
+
+   <script src="dom.js"></script>
+</body>
+</html>
